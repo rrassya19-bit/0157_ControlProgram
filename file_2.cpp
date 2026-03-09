@@ -19,3 +19,24 @@ string Status_lulus2(float r){
     else
         return "Gagal";
 }
+
+int main(){
+    float nilBi,nilMT, rerata;
+    string status;
+
+cout << "Masukkan nilai Bahasa Inggris = ";
+cin >> nilBi;
+cout <<"Masukkan nilai Matematika = ";
+cin >> nilMT;
+
+
+//rerata = (nilBi, nilMT)/2;
+//if (rerata >= 60)
+//    status = "Lolos"; 
+//else
+    //status = "Gagal";
+rerata = Rata_rata(nilBi, nilMT);
+//status = Status_lulus(rerata);
+
+cout << "status kelulusan =  "<< Status_lulus(rerata)<<" , dengan nilai rata-rata = "<< rerata << endl;
+}
