@@ -29,7 +29,6 @@ cin >> nilBi;
 cout <<"Masukkan nilai Matematika = ";
 cin >> nilMT;
 
-
 //rerata = (nilBi, nilMT)/2;
 //if (rerata >= 60)
 //    status = "Lolos"; 
